@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Sudoku Visualizer </title>
+		<link rel = "stylesheet" href = "Sudoku Visualizer.css">
+	</head>
+	
+	<body>
+		<div class = "menu">
+			<ul class = "menu-list">
+				<li>
+					<label class = "difficulty"> Difficulty </label>
+					<select class = "difficulty-selection" onchange = "changeDifficulty()">
+						<option value = "easy"> --- Select Difficulty --- </option>
+						<option value = "easy"> Easy </option>
+						<option value = "medium"> Medium </option>
+						<option value = "hard"> Hard </option>
+						<option value = "random"> Random </option>
+					</select>
+				</li>
+				<li>
+					<label class = "speed"> Speed </label>
+					<select class = "speed-selection">
+						<option value = "500"> --- Select Speed ---</option>
+						<option value = "1000"> Slow </option>
+						<option value = "500"> Medium </option>
+						<option value = "0"> Fast </option>
+					</select>
+				</li>
+				<li> <label class = "generate" onclick = "GenerateBoard()"> Generate New Table </label> </li>
+				<li> <label class = "visualize" onclick = "Visualize()" > Visualize </input>
+				<li> <label class = "reset" onclick = "ResetBoard()"> Reset table </label> </li>
+			<ul>
+		</div>
+		<div class = "board">
+			<div class = "table">
+				<table class = "table">
+					<tr class = "row">
+						<td class = "col" id = "1">
+						<td class = "col" id = "2">
+						<td class = "col" id = "3">
+						<td class = "col" id = "4">
+						<td class = "col" id = "5">
+						<td class = "col" id = "6">
+						<td class = "col" id = "7">
+						<td class = "col" id = "8">
+						<td class = "col" id = "9">
+					</tr>
+					<tr class = "row">
+						<td class = "col" id = "10">
+						<td class = "col" id = "11">
+						<td class = "col" id = "12">
+						<td class = "col" id = "13">
+						<td class = "col" id = "14">
+						<td class = "col" id = "15">
+						<td class = "col" id = "16">
+						<td class = "col" id = "17">
+						<td class = "col" id = "18">
+					</tr>
+					<tr class = "row3">
+						<td class = "col" id = "19">
+						<td class = "col" id = "20">
+						<td class = "col" id = "21">
+						<td class = "col" id = "22">
+						<td class = "col" id = "23">
+						<td class = "col" id = "24">
+						<td class = "col" id = "25">
+						<td class = "col" id = "26">
+						<td class = "col" id = "27">
+					</tr><tr class = "row">
+						<td class = "col" id = "28">
+						<td class = "col" id = "29">
+						<td class = "col" id = "30">
+						<td class = "col" id = "31">
+						<td class = "col" id = "32">
+						<td class = "col" id = "33">
+						<td class = "col" id = "34">
+						<td class = "col" id = "35">
+						<td class = "col" id = "36">
+					</tr>
+					<tr class = "row">
+						<td class = "col" id = "37">
+						<td class = "col" id = "38">
+						<td class = "col" id = "39">
+						<td class = "col" id = "40">
+						<td class = "col" id = "41">
+						<td class = "col" id = "42">
+						<td class = "col" id = "43">
+						<td class = "col" id = "44">
+						<td class = "col" id = "45">
+					</tr>
+					<tr class = "row">
+						<td class = "col" id = "46">
+						<td class = "col" id = "47">
+						<td class = "col" id = "48">
+						<td class = "col" id = "49">
+						<td class = "col" id = "50">
+						<td class = "col" id = "51">
+						<td class = "col" id = "52">
+						<td class = "col" id = "53">
+						<td class = "col" id = "54">
+					</tr>
+					<tr class = "row">
+						<td class = "col" id = "55">
+						<td class = "col" id = "56">
+						<td class = "col" id = "57">
+						<td class = "col" id = "58">
+						<td class = "col" id = "59">
+						<td class = "col" id = "60">
+						<td class = "col" id = "61">
+						<td class = "col" id = "62">
+						<td class = "col" id = "63">
+					</tr>
+					<tr class = "row">
+						<td class = "col" id = "64">
+						<td class = "col" id = "65">
+						<td class = "col" id = "66">
+						<td class = "col" id = "67">
+						<td class = "col" id = "68">
+						<td class = "col" id = "69">
+						<td class = "col" id = "70">
+						<td class = "col" id = "71">
+						<td class = "col" id = "72">
+					</tr>
+					<tr class = "row">
+						<td class = "col" id = "73">
+						<td class = "col" id = "74">
+						<td class = "col" id = "75">
+						<td class = "col" id = "76">
+						<td class = "col" id = "77">
+						<td class = "col" id = "78">
+						<td class = "col" id = "79">
+						<td class = "col" id = "80">
+						<td class = "col" id = "81">
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script src = "Sudoku Visualizer.js"></script>
+	</body>
+</html>

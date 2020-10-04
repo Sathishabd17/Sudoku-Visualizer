@@ -1,0 +1,72 @@
+html { 
+  background: url('background image.jpeg'); no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.menu ul {
+	display: inline-flex;
+	list-style: none;
+}
+
+.menu ul li {
+	width: 230px;
+	text-align: center;
+}
+
+.menu .generate:hover, .visualize:hover, .reset:hover {
+	padding: 15px;
+	background-color: grey;
+}
+
+table {
+	border-collapse: collapse;
+	position: relative;
+	left: 50%;
+	margin-left: -230px;
+	top: 25px;
+}
+
+td {
+	border: 1px solid black;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	vertical-align: center;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 30px;
+}
+
+table tr:nth-child(1) td {
+	border-top: 2px solid black;
+}
+
+table tr:nth-child(9) td {
+	border-bottom: 2px solid black;
+}
+
+table tr td:nth-child(1) {
+	border-left: 2px solid black;
+}
+
+table tr td:nth-child(9) {
+	border-right: 2px solid black;
+}
+
+table tr:nth-child(3) td {
+	border-bottom: 2px solid black;
+}
+
+table tr:nth-child(6) td {
+	border-bottom: 2px solid black;
+}
+
+table tr td:nth-child(3) {
+	border-right: 2px solid black;
+}
+
+table tr td:nth-child(6) {
+	border-right: 2px solid black;
+}
+
+
+
