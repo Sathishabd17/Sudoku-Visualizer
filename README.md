@@ -4,6 +4,7 @@ A web application to visualize sudoku board using backtracking algorithm. Using 
 This may help people who are stuck to understand how backtracking algorithm works.
 
 ## Live Demo
+https://sathishabd17.github.io/Sudoku-Visualizer/
 
 ![](https://github.com/Sathishabd17/Sudoku-Visualizer/blob/main/Sudoku%20Visualizer.gif)
 
