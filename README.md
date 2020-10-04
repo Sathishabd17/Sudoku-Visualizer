@@ -5,4 +5,4 @@ This may help people who are stuck to understand how backtracking algorithm work
 
 # Live Demo
 
-![](https://github.com/Sathishabd17/Sudoku-Visualizer/blob/main/Sudoku%20Visualizer.gif = 50x50)
+![demo](Sudoku Visualizer.gif)
