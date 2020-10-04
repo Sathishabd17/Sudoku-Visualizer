@@ -5,4 +5,4 @@ This may help people who are stuck to understand how backtracking algorithm work
 
 # Live Demo
 
-![](Sudoku Visualizer.gif)
+![](name-of-giphy.gif)
